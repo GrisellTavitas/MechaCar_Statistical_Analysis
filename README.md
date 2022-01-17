@@ -51,7 +51,25 @@ As we can visualize better on the following image, Lot 1 and 2 met the design re
 
 
 ## T-Tests on Suspension Coils
-Briefly summarize your interpretation and findings for the t-test results
+-Briefly summarize your interpretation and findings for the t-test results
+
+Having this next hypoteses: 
+![image](https://user-images.githubusercontent.com/90433064/149719339-266c74bb-daf2-4cd8-94e5-68659605b010.png)
+
+And taking into account the results for the One Sample T-test:
+
+![One_ST](https://user-images.githubusercontent.com/90433064/149719682-a1c473ea-39c3-4504-8106-f73c6e6705df.jpg)
+
+We can conclude that since the p-value is 0.06, there is not enough evidence to reject the null hypoteses; meaning that there is no statistical difference betwen the sample mean and its population. 
+
+![ttest_1](https://user-images.githubusercontent.com/90433064/149721994-8fb37d8b-e03e-4580-9155-494b9994a030.jpg)
+For lot 1, we can see that p-value is greater than the percent significance level, so there is not sufficient evidence to reject the null hypoteses. 
+
+![ttest_2](https://user-images.githubusercontent.com/90433064/149723638-8e84a1d5-7756-41e1-8b46-b64aed3e6edc.jpg)
+For lot 2, we can see that p-value is still greater than the percent significance level, so there is not sufficient evidence to reject the null hypoteses. 
+
+![ttest_3](https://user-images.githubusercontent.com/90433064/149723642-f150362e-a86c-4199-9e06-ab4c749a4c24.jpg)
+For lot 3, we can see that p-value is a little different from this population mean than the percent significance level, so there is sufficient evidence to reject the null hypoteses. 
 
 ## Study Design: MechaCar vs Competition
 
