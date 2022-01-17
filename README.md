@@ -14,7 +14,7 @@ For answering this previous question, we had to perform a multiple linear regres
 
 ![Summary_multiple_linear_regression](https://user-images.githubusercontent.com/90433064/149705627-d457a364-6a67-48f2-8c65-00061b5a164d.jpg)
 
-So then, as we can see the values that could predict the mpg of MechaCar prototypes are vehicule weight, spoiler angle and AWD; because they are statistically provided a non random amount of variance to the mpg values. 
+So then, as we can see the values that rovided a non random amount of variance to the mpg values are vehicule weight, spoiler angle and AWD. 
 
 -Is the slope of the linear model considered to be zero? Why or why not?
 
@@ -27,10 +27,11 @@ For this question, we would have the follow hypothesis:
 As we can noticed the p-value of our linear regression analysis is 5.35 x 10^-11, so it is smaller than the normal range of significance level of 0.05%; so then there is sufficient evidence to reject our null hypothesis, meaning that the slope of our linear model is not zero. 
 
 -Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+To answer this questions we should look at the r-squared value, which is 0.71 in our multiple linear regression model, meanign that roughly 71% of the variability of our dependent variable is explained using this linear model. Since the Intercept term is statistically significant as well, it may mean that we need to change our independent variables or reevalueate the coefficients and significance. 
 
+So, we could say that even when the multiple linear regression works ok ar predicting our current dataset, fails to generalize and predicting future data correctly. We should consider to change the independent variables or re-evaluate the coefficients and significance, 
 
 ## Study Design: MechaCar vs Competition
-
 
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
