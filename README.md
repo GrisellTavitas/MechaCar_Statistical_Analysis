@@ -74,12 +74,18 @@ For lot 3, we can see that p-value is a little different from this population me
 ## Study Design: MechaCar vs Competition
 
 Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+A very important topic to make a comparaison from MechaCar vs some competitors, is the Safety Feature Rating; since this is one of the most important details for customer when they're doing the reaserch previous to the purchase. 
 
 In your description, address the following questions:
 -What metric or metrics are you going to test?
+Safety Feature Rating, Price, MPG.
 
 -What is the null hypothesis or alternative hypothesis?
+H0: MechaCar prototypes' average safety feature rainting is no different to competitor's vehicles from the same class.
+Ha: MechaCar prototypes' average safety feature rainting is different to competitor's vehicles from the same class.
 
 -What statistical test would you use to test the hypothesis? And why?
+Two sample t test, for getting an accurate analysis that works better with a large sample size. 
 
 -What data is needed to run the statistical test?
+We would need to collect the information about the safety feature in the vehicule vs the price, and the same information from the competitiors.
