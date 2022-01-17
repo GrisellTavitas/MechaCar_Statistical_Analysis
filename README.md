@@ -88,4 +88,4 @@ Ha: MechaCar prototypes' average safety feature rainting is different to competi
 Two sample t test, for getting an accurate analysis that works better with a large sample size. 
 
 -What data is needed to run the statistical test?
-We would need to collect the information about the safety feature in the vehicule vs the price, and the same information from the competitiors.
+We would need to collect the information about the safety feature in the vehicule vs the price, and the same information from the competitors.
