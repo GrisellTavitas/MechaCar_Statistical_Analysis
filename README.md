@@ -29,7 +29,29 @@ As we can noticed the p-value of our linear regression analysis is 5.35 x 10^-11
 -Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 To answer this questions we should look at the r-squared value, which is 0.71 in our multiple linear regression model, meanign that roughly 71% of the variability of our dependent variable is explained using this linear model. Since the Intercept term is statistically significant as well, it may mean that we need to change our independent variables or reevalueate the coefficients and significance. 
 
-So, we could say that even when the multiple linear regression works ok ar predicting our current dataset, fails to generalize and predicting future data correctly. We should consider to change the independent variables or re-evaluate the coefficients and significance, 
+So, we could say that even when the multiple linear regression works ok ar predicting our current dataset, fails to generalize and predicting future data correctly. We should consider to change the independent variables or re-evaluate the coefficients and significance.
+
+## Summary Statistics on Suspension Coils
+
+*Write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:*
+
+-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+This was the result for all manufacturing lots, getting 62.29 pounds PSI which fit the design specification:
+
+![Variance_Suspension_coils](https://user-images.githubusercontent.com/90433064/149716730-24d07b89-320f-4f22-a292-57a1509aab9f.jpg)
+
+Nevertheless, the result was different on the results of each lots individually:
+
+![variance_per_lot](https://user-images.githubusercontent.com/90433064/149717672-97c70d86-16e8-4d5f-ae85-d777c3b3b9e2.jpg)
+
+As we can visualize better on the following image, Lot 1 and 2 met the design requirement, but we cannot say that for the Lot 3, which has a variance of 170 pounds PSI.
+
+![boxplot_variance_per_lot](https://user-images.githubusercontent.com/90433064/149717392-e74fbea8-be7c-4f8b-9b57-2ca4406e7476.jpg)
+
+
+## T-Tests on Suspension Coils
+Briefly summarize your interpretation and findings for the t-test results
 
 ## Study Design: MechaCar vs Competition
 
